@@ -25,9 +25,9 @@ print(" python choose  :" + COMPUTERCHOICE)
 print("")
 
 if player == 1:
-  print("you win"
+  print("you win")
 
-
+print('user')
 
 
 
