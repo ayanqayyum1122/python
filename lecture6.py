@@ -54,8 +54,51 @@ user[1:2] = ['ayan']
 user.sort()
 print(user)
 
+user.sort(key=str.lower)
+print(user)
 
+nums = [4,56,78,1,6]
+print(type(nums))
+nums.reverse()
+print(nums)
 
+nums.sort(reverse=True)
+print(nums)
 
+numscopy= nums.copy()
+mynums = list(nums)
+mycopy = nums[:]
 
+print(numscopy)
+print(nums)
+mycopy.sort()
+print(mycopy)
+print(nums)
+
+print(type(nums))
+
+mylist = list([1,"amsterdam",True])
+print(mylist)
+
+# tuples
+mytuple = tuple(('ayan', 42, True))
+
+anothertuple = (1,2,3,4,5,7,8,2,2)
+
+print(mytuple)
+print(type(mytuple))
+print(type(anothertuple))
+
+newlist = list(mytuple)
+newlist.append('amsterdam')
+newtuple = tuple(newlist)
+print(newtuple)
+ 
+(one, *two, hey) = anothertuple
+print(one)
+print(two)
+print(hey)
+
+print(anothertuple.count(2))
+print("This is the last line in the python")
 

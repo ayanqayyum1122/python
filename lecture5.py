@@ -27,7 +27,8 @@ print("")
 if player == 1:
   print("you win")
 
-print('user')
+
+
 
 
 
